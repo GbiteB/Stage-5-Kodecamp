@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="container navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/LOGO.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <span class="fw-bold" style="color: #63D3FD;">Home</span>  <span style="color:#FFA800 ;"> Owner</span> </a>
+          <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <form class="d-flex btn-group">
+                        <input class="form-control form-control-sm rounded-start search" type="search" size="30" aria-label="Search">
+                        <button class="btn btn-info btn-sm px-4 me-5 rounded-end text-white" type="submit">Search</button>
+                    </form>
+                    <div class="navbar-nav">
+                        <a class="nav-link color-blue" href="index.html">Home</a>
+                        <a class="nav-link color-blue" href="#">About Us</a>
+                        <a class="nav-link color-blue active" aria-current="page" href="gallery-page.html">Our Homes</a>
+                        <a class="nav-link color-blue" href="#">Contact Us</a>
+                    </div>    
+                </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="container mb-5">
+        <div class="pt-3 pb-5">
+            <h5 class="poppins-nav fs-3 bg-info text-white ps-4">Buy a Home</h5>
+        </div>
+        <div class="row mb-3" id="gallery-section">
+            <div class="col-12 col-md-4 col-lg-4 mb-4" >
+                <a href="#" class="text-decoration-none">
+                    <img src="img/1.jpg" alt="" class="gallery-img img-fluid">
+                    <div class="bg-secondary ps-3 poppins-nav text-white shadow-gal py-2">
+                        <p class="sm-text">Micredo Luxury Apartment (5-Bedroom), Ikeja</p>
+                        <div class="d-flex justify-content-between me-2">
+                            <p class="fs-6">$500,000</p>
+                            <button class="btn btn-warning sm-text text-white">see more</button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <footer class="container-fluid text-center bg-secondary text-white">
+        <div class=" py-3">
+            <h5 class="text-center text-secondary pt-2">CONTACT US</h5>
+        </div>
+        <div class="row justify-content-between pb-1 border-bottom border-3 border-white">
+            <p class="col-12 col-md-4 col-lg-4"> <span class="fw-bold fst-italic">Address:</span> Norman Williams str, Ikoyi, Lagos.</p>
+            <p class="col-12 col-md-4 col-lg-4"> <span class="fw-bold fst-italic">Telephone:</span> 01-3456789</p> 
+            <p class="col-12 col-md-4 col-lg-4"> <span class="fw-bold fst-italic">E-mail:</span> info@homeowner.com</p>
+        </div>
+        <div class="py-5">
+            <a href="#">
+                <img src="img/facebook.svg" alt="">
+                <img src="img/twitter.svg" alt="" class="px-4">
+                <img src="img/instagram.svg" alt="">
+            </a>
+        </div>
+    </footer>
+
+
+
+    <script src="script/bootstrap.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/app.js"></script>
+</body>
+</html>
